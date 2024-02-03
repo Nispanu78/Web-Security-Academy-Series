@@ -1,0 +1,5 @@
+In order to serve the malicious link to the victim, we need:
+
+1. To set-up a local python server (python3 -m http.server 8000)
+2. To create a link to the file that contains the forged cross-site request, which must be like this:
+http://IP_of_the_pyhon_server:PORT_of_the_python_server/name_of_the_file_that_contains_the_forged_request
